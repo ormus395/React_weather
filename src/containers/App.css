@@ -1,0 +1,38 @@
+.App {
+  width: 320px;
+  height: 320px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.App__content {
+  margin-left: 10px;
+}
+
+.App__header {
+  padding: 0;
+  line-height: 5px;
+  margin-bottom: 35px;
+}
+
+.App__header p {
+  font-size: 14px;
+  color: #999;
+}
+
+.icon {
+  float: left;
+  height: 64px;
+  width: 64px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* .temp p {
+  margin-top: -3px;
+} */
